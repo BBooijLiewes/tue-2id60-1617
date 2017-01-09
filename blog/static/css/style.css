@@ -1,0 +1,61 @@
+
+
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+.navigatie {
+    margin-bottom: 40px;
+}
+
+.navName {
+    margin: 0;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.detail_post {
+    margin-left: 10%;
+}
+
+body {
+    background-image: url('../images/background.png');
+}
+
+.post_list {
+    background: whitesmoke;
+    opacity: 0.9;
+    padding: 2%;
+
+}
+
+.list_post_2 {
+    margin-left: 7%;
+}
+
+

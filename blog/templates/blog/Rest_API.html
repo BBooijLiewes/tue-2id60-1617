@@ -1,0 +1,29 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+    <div class="post_list img-rounded">
+
+        <div class="row">
+            <div class="text-center">
+                <h3>Rest API</h3>
+                <p>Any user of this website can make use of the build in REST API. A request can be made for both the
+                    title and content of either all blog posts or one specific blog post</p>
+                <p>The format of these Rest request is <b>Get</b> upon which an <b>JSON</b> object will be send back
+                    containing the specific request</p>
+                <h4>Format</h4>
+                <p>To request all posts simply go to: </p>
+                <h4><p><a
+                        href="https://tue-2id60-1617.herokuapp.com/api/all/?format=json">https://tue-2id60-1617.herokuapp.com/api/all/?format=json</a>
+                </p></h4>
+                <p>To request a specific blog post first get that blog posts ID via the URL in that posts detail view,
+                    it will be a number located behind the /post/.</p>
+                <p> After obtaining this number simply go to the following URL:</p>
+                <h4><p> https://tue-2id60-1617.herokuapp.com/api/Post_ID_HERE/?format=json</p></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+{% endblock %}
